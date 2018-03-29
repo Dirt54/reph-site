@@ -18,9 +18,17 @@ module.exports = {
                         presets: ['env', 'react']
                     }
                 }
-            }
+            },
+            {
+                test: /\.(png|jpg|gif)$/,
+                use: [
+                  {
+                    loader: 'file-loader',
+                    options: {}  
+                  }
+                ]
+              }
         ]
-
     },
     resolve: {
         extensions: ['.js', '.jsx']
