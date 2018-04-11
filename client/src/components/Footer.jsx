@@ -6,6 +6,7 @@ export default class Navbar extends Component {
   render() {
     return (
     <footer>
+        &copy; 2018 Rephidim. All Rights Reserved
         </footer>
     );
   }

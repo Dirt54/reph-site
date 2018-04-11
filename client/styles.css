@@ -5,51 +5,86 @@ html {
 }
 
 nav {
-position: fixed;
-z-index: 1000;
-height: 130px;
-width: 100%;
-background-color: #1e3044;
-opacity: 0.89;
-}
-
-#navList {
-    position: relative;
-    float: right;
-    top: 50%;
-    margin-right: 70px;
-    /* vertical-align: middle; */
-   
-}
-
-a:link {
-    text-decoration: none;
-    color: #3A3A3A;
-}
-
-a:visited {
-    text-decoration: none;
-    color: #3A3A3A;
-}
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 82px;
+    opacity: .92;
+    background: #fff;
+    box-shadow: 0 3px 10px -2px rgba(0,0,0,.1);
+    border: 1px solid rgba(0,0,0,.1);
+    z-index: 1000;
+  }
+    nav ul{
+      list-style: none;
+      position: relative;
+      float: right;
+      margin-right: 80px;
+      display: inline-table;
+    }
+      nav ul li{
+        float: left;
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+      }
+  
+      nav ul li:hover {background: #77C9D4;}
+      nav ul li:hover > ul {display: block;}
+      nav ul li {
+        float: left;
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+      }
+        nav ul li a{
+          display: block; 
+          padding: 30px 20px;
+          color: #222; 
+          font-size: .9em;
+          letter-spacing: 1px;
+          text-decoration: none;
+          text-transform: uppercase;
+        }
+        nav ul ul{
+          display: none;
+          background: #fff;
+          position: absolute; 
+          top: 100%;
+          box-shadow: -3px 3px 10px -2px rgba(0,0,0,.1);
+          border: 1px solid rgba(0,0,0,.1);
+        }
+          nav ul ul li {float: none; position: relative;}
+            nav ul ul li a {
+              padding: 15px 30px; 
+              border-bottom: 1px solid rgba(0,0,0,.05);
+            }
+            nav ul ul ul {
+              position: absolute; 
+              left: 100%; 
+              top: 0;
+            }	
 
 a:hover {
     text-decoration: none;
-    color: #7EADB7;
+    color: #FFFFFF;
 }
 
-a:active {
-    text-decoration: underline;
-    color: #3A3A3A;
-}
 
-nav li {
-    display: inline;
-    font-size: 30px;
-    margin-right: 25px;
-    
+#linefill {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    width: 65%;
+   height: 1px;
+   background-color: #303030;
+   margin-top: 70px;
+   margin-bottom: 20px;
 }
 
 #frontPic {
+    background-image:url('src/images/haitipainting.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -58,19 +93,325 @@ nav li {
     position: relative;
     padding: 0;
     margin: 0;
-    height: 400px;
+    height: 300px;
     width: 100%;
-    float: left;
-    background-position: 50%, 0%;
+    /* float: left; */
+    background-position: 20% 20%;
+    opacity: .85;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
+
 #homeArea1 {
-    min-height: 1100px;
+    min-height: 100vh;
     width: 100%;
-    background-color: rgba(222, 223, 229, 0.87);
-    padding: 20px;
+    background-color: #fff;
+    padding: 0px;
     margin: 0px;
 }
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 80px;
+    /* border-style: solid;
+    border-width: 1px;
+    width: fit-content; */
+}
+
+#homeArea1 p {
+    color: #FEFEFE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+}
+
+#aboutusbox {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    width: 90%;
+   min-height: 100px;
+   background-color: #57bc90;
+   /* background-color: white; */
+   margin-top: 60px;
+   margin-bottom: 10px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+#valueItems {
+    position: relative;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.valueItem {
+position: relative;
+display: inline-block;
+width: 200px;
+height: 200px;
+margin: 8px;
+padding-top: 20px;
+/* background-image: url('../images/IMG_6006.JPG'); */
+background-size: cover;
+background-repeat: no-repeat;
+background-position: 50% 50%;
+vertical-align: middle;
+font-size: 1em;
+color: #000000;
+ /* background-color: #015249; */
+ background-color: #77C9D4;
+    /* background-blend-mode: multiply; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all .2s ease-in-out;
+/* opacity: 0.5; */
+}
+
+.valueItem:hover {
+    /* background-blend-mode: normal; */
+    transform: scale(1.05);
+    z-index: 2;
+    cursor: pointer;
+    /* opacity: 1.0; */
+}
+
+.valuepics {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+    top: 25px;
+}
+
+#equality {
+    background-image:url('src/images/values/equality.png');
+}
+
+#service {
+    background-image:url('src/images/values/service.png');
+}
+
+#compassion {
+    background-image:url('src/images/values/compassion.png');
+}
+
+#respect {
+    background-image:url('src/images/values/respect.png');
+}
+
+#empowerment {
+    background-image:url('src/images/values/empowerment.png');
+}
+
+#relationship {
+    background-image:url('src/images/values/relationship.png');
+}
+
+#humility {
+    background-image:url('src/images/values/humility.png');
+}
+
+#trust {
+    background-image:url('src/images/values/trust.png');
+}
+
+#sustainability {
+    background-image:url('src/images/values/sustainability.png');
+}
+
+#community {
+    background-image:url('src/images/values/community.png');
+}
+
+#aboutArea1 {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#aboutArea1 p {
+    color: #1D1D1D;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+    /* background-color:#77C9D4; */
+    background-color: white;
+    color: #101010;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all .2s ease-in-out;
+}
+
+#aboutArea1 h1 {
+    text-decoration: none;
+    border-bottom: 10px solid black;
+    /* text-decoration-color: #015249; */
+    /* text-decoration-color: #57bc90; */
+    border-bottom-color: #FED823;
+    
+}
+
+#aboutVision {
+    display: flex;
+}
+
+#visionInfo {
+    flex: 1;
+}
+
+#visionPic {
+    background-image:url('src/images/peopleearth.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+
+#aboutMission {
+    display: flex;
+    margin-top: 100px;
+}
+
+#missionInfo {
+    flex: 1;
+}
+
+#missionPic {
+    background-image:url('src/images/heart.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 450px;
+    height: 450px;
+    top: 30px;
+}
+
+@media (max-width: 900px) {
+    #aboutVision {
+        display: block;
+    }
+    #aboutMission {
+        display: block;
+    }
+    .aboutPics {
+text-align: center;
+margin: auto;
+    }
+}
+
+
+#partnersBox {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/* #peopleEarth {
+    position: absolute;
+}
+
+#peopleEarth {
+    background-image:url('src/images/peopleearth.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin: auto;
+    top: 25px;
+} */
+
+
+
+.partnersList {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 20px;
+    width: 100px;
+}
+
+
+#contactContain {
+margin-top: 135px;
+margin-left: 15%;
+margin-right: 15%;
+
+}
+
+#contactContain h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #3E3E3E;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+input {
+    width: 100%;
+    height: 38px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #3E3E3E;
+}
+
+textarea {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #3E3E3E;
+}
+
+#contactBtn {
+    margin-top: 25px;
+
+}
+
+#contactBtn:hover {
+    background-color: #57bc90;
+    cursor: pointer;
+}
+
 
 footer {
     width: 100%;
@@ -78,5 +419,63 @@ footer {
     background-color: #2A2A2A;
     padding: 0px;
     margin: 0px;
+    color: #D2D2D2;
+    text-align: center;
+    line-height: 80px;
+    vertical-align: middle;
 
+}
+
+
+
+#partnersHeading {
+    position: relative;
+    margin-bottom: 40px;
+    left: 32%;
+    margin-top: 65px;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    /* background-color: #015249; */
+    background-color: #77C9D4;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #57bc90;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #F0F0F0;
+  }
+
+  .content p {
+      color: #3C3C3C !important;
+      font-size: 15px !important;
+      margin-bottom: 42px !important;
+  }
+
+  .collapsible:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
