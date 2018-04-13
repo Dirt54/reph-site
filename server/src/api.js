@@ -1,9 +1,13 @@
-var users = require('./controllers/users.ctrl');
-
 var express = require('express');
+var email = require('./controllers/email.ctr');
+
+
 
 var router = express.Router();
 
-router.use('/users', users);
+router.use('/email', email);
+
+
+
 
 module.exports = router;

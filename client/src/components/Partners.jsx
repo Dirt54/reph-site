@@ -17,32 +17,32 @@ export default class Home extends Component {
                         <h1 id="partnersHeading">Our Partners </h1>
                         
                         <div id="linefill"></div>
-                    <button class="collapsible">Real Hope for Haiti</button>
-                    <div class="content">
+                    <button className="collapsible" id="topBox">Real Hope for Haiti</button>
+                    <div className="content">
                         <p>Something About Real Hope for Haiti...</p>
                     </div>
-                    <button class="collapsible">Haiti Design</button>
-                    <div class="content">
+                    <button className="collapsible">Haiti Design</button>
+                    <div className="content">
                         <p>Something About Haiti Design</p>
                         </div>
-                        <button class="collapsible">Respire</button>
-                    <div class="content">
+                        <button className="collapsible">Respire</button>
+                    <div className="content">
                         <p>Something About Respire</p>
                         </div>
-                        <button class="collapsible">Heartline</button>
-                    <div class="content">
+                        <button className="collapsible">Heartline</button>
+                    <div className="content">
                         <p>Something About Heartline</p>
                     </div>
-                    <button class="collapsible">Second Mile</button>
-                    <div class="content">
+                    <button className="collapsible">Second Mile</button>
+                    <div className="content">
                         <p>Something About Second Mile</p>
                     </div>
-                    <button class="collapsible">Creole Inc</button>
-                    <div class="content">
+                    <button className="collapsible">Creole Inc</button>
+                    <div className="content">
                         <p>Something About Creole Inc</p>
                     </div>
-                    <button class="collapsible">Corrigan Clay</button>
-                    <div class="content">
+                    <button className="collapsible">Corrigan Clay</button>
+                    <div className="content">
                         <p>Something About Corrigan Clay</p>
                     </div>
                     </div>

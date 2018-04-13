@@ -29,45 +29,45 @@ export default class Home extends Component {
           <h3>Our Values</h3>
 
           <div id="valueItems">
-            <div class="valueItem">
+            <div className="valueItem">
             Trust
-            <div class="valuepics" id="trust"></div>
+            <div className="valuepics" id="trust"></div>
             </div>
-            <div class="valueItem">
+            <div className="valueItem">
             Humility
-            <div class="valuepics" id="humility"></div>
+            <div className="valuepics" id="humility"></div>
             </div>
-            <div class="valueItem">
+            <div className="valueItem">
             Relationship/Partnership
-            <div class="valuepics" id="relationship"></div>
+            <div className="valuepics" id="relationship"></div>
             </div>
-            <div class="valueItem">
+            <div className="valueItem">
             Empowerment
-            <div class="valuepics" id="empowerment"></div>
+            <div className="valuepics" id="empowerment"></div>
             </div>
-            <div class="valueItem">
+            <div className="valueItem">
             Sustainability
-            <div class="valuepics" id="sustainability"></div>
+            <div className="valuepics" id="sustainability"></div>
             </div>
-            <div class="valueItem">
+            <div className="valueItem">
             Respect/Integrity
-            <div class="valuepics" id="respect"></div>
+            <div className="valuepics" id="respect"></div>
             </div>
-            <div class="valueItem">
+            <div className="valueItem">
             Compassion
-            <div class="valuepics" id="compassion"></div>
+            <div className="valuepics" id="compassion"></div>
             </div>
-            <div class="valueItem">
+            <div className="valueItem">
             Service
-            <div class="valuepics" id="service"></div>
+            <div className="valuepics" id="service"></div>
             </div>
-            <div class="valueItem">
+            <div className="valueItem">
             Inclusivity/Equality
-            <div class="valuepics" id="equality"></div>
+            <div className="valuepics" id="equality"></div>
             </div>
-            <div class="valueItem">
+            <div className="valueItem">
             Community
-              <div class="valuepics" id="community"></div>
+              <div className="valuepics" id="community"></div>
             </div>
           </div>
 

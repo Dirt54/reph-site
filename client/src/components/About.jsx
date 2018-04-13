@@ -17,13 +17,13 @@ export default class Home extends Component {
                             <h1>Vision</h1>
                             <p>Rephidim’s vision is to balance the world’s inequities and uphold basic human rights through empowering, aiding, and supporting those who serve disadvantaged individuals and communities.</p>
                         </div>
-                        <div id="visionPic" class="aboutPics"></div>
+                        <div id="visionPic" className="aboutPics"></div>
                     </div>
 
                     <div id="linefill"></div>
 
                     <div id="aboutMission">
-                        <div id="missionPic" class="aboutPics"></div>
+                        <div id="missionPic" className="aboutPics"></div>
                         <div id="missionInfo">
                             <h1>Mission</h1>
                             <p>Rephidim’s mission is to implement a relationship-focused and grantee-centric philanthropic approach in developing and third-world countries, through partnership with experienced organizations and knowledgable individuals. The focus of every grant and partnership is to counteract injustices, through advancing the quality of life, improving health, and enabling community development in a sustainable and transformational manner. </p>
