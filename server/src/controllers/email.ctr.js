@@ -6,7 +6,7 @@ var router = express.Router();
 router.route("/")
 .post(function(req, res) {
     var newPost = req.body;
-    emailService.sendEmail(newPost.name, newPost.email, newPost.subject, newPost.content)
+    emailService.sendEmail(newPost.name, newPost.email, newPost.subject, newPost.message)
     .then(function(response) {
         res.status(201);
     }).catch(function(e) {

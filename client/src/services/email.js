@@ -1,7 +1,12 @@
 import * as baseService from './base';
 
-function sendEmail(data) {
-    return baseService.post('/api/email', data);
+function sendEmail(name, email, subject, message) {
+    return baseService.post('/api/email', {
+        name,
+        email, 
+        subject,
+        message
+    });
 }
 
-export { all, one, insert, update, destroy };
+export { sendEmail };
