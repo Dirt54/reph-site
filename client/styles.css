@@ -16,6 +16,15 @@ nav {
     border: 1px solid rgba(0,0,0,.1);
     z-index: 1000;
   }
+  #rephLogo {
+      float: left;
+      padding: 18px 50px;
+      color: #222; 
+      font-size: 1.9em;
+      letter-spacing: 1px;
+      text-decoration: none;
+      text-transform: uppercase;
+  }
     nav ul{
       list-style: none;
       position: relative;
@@ -79,11 +88,14 @@ nav select {
     display: none;
 }
 
+
+
 @media (max-width: 750px) {
-    nav a     { 
+    .topnav a     { 
         display: none; 
     }
     .topnav a.icon { 
+        float: right;
         display: block; 
     }
     .topnav.responsive {
@@ -94,9 +106,17 @@ nav select {
       right: 0;
       top: 0;
     }
+    #adaptItems {
+        float: none;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        background-color: white;
+    }
     .topnav.responsive a {
       float: none;
-      display: block;
+      display: flex;
+      flex-direction: column;
       text-align: left;
     }
   }
@@ -113,7 +133,7 @@ nav select {
 }
 
 #frontPic {
-    background-image:url('src/images/haitipainting.jpg');
+    background-image:url('src/images/cowpic.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -125,8 +145,8 @@ nav select {
     height: 300px;
     width: 100%;
     /* float: left; */
-    background-position: 20% 20%;
-    opacity: .85;
+    background-position: 0% 45%;
+    /* opacity: .85; */
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 

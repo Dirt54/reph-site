@@ -34,18 +34,14 @@ export default class Home extends Component {
 
     handleSubmit(e) {
         e.preventDefault();
-        sendEmail(this.state.name, this.state.email, this.state.subject, this.state.message)
-        // .then(() => { 
-        //     this.props.history.push('/');
-        // }).catch((err) => {
-        //     console.log(err);
-        // })
+        sendEmail(this.state.name, this.state.email, this.state.subject, this.state.message);
+        alert('An email has been sent');
+        this.props.history.push('/');
     }
     
 
     render() {
         const { name, email, subject, message } = this.state;
-        console.log(this.state);
         return (
             <Fragment>
                 <div id="homeArea1">

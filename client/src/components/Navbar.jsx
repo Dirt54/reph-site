@@ -3,10 +3,25 @@ import { render } from "react-dom";
 import { Link } from "react-router-dom";
 
 export default class Navbar extends Component {
+    constructor(props) {
+      super(props);
+  }
+
+   myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+
+
   render() {
     return (
       <nav role='navigation' className="topnav" id="myTopnav">
-        <ul>
+        <div id="rephLogo">Rephidim</div>
+        <ul id="adaptItems">
           <li>
             <a href="/">Home</a>
           </li>

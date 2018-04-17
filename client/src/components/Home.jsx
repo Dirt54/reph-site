@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { render } from "react-dom";
 import indoorhaiti from '../images/indoorhaiti.jpg';
 import haitipainting from '../images/haitipainting.jpg';
+import cowpic from '../images/cowpic.jpg';
 
 
 export default class Home extends Component {
