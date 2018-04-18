@@ -144,10 +144,7 @@ nav select {
     margin: 0;
     height: 300px;
     width: 100%;
-    /* float: left; */
     background-position: 0% 45%;
-    /* opacity: .85; */
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 
@@ -164,9 +161,6 @@ h3 {
     text-align: center;
     font-size: 35px;
     margin-top: 80px;
-    /* border-style: solid;
-    border-width: 1px;
-    width: fit-content; */
 }
 
 #homeArea1 p {
@@ -189,7 +183,6 @@ h3 {
     width: 90%;
    min-height: 100px;
    background-color: #57bc90;
-   /* background-color: white; */
    margin-top: 60px;
    margin-bottom: 10px;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -212,27 +205,21 @@ width: 200px;
 height: 200px;
 margin: 8px;
 padding-top: 20px;
-/* background-image: url('../images/IMG_6006.JPG'); */
 background-size: cover;
 background-repeat: no-repeat;
 background-position: 50% 50%;
 vertical-align: middle;
 font-size: 1em;
 color: #000000;
- /* background-color: #015249; */
  background-color: #77C9D4;
-    /* background-blend-mode: multiply; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: all .2s ease-in-out;
-/* opacity: 0.5; */
 }
 
 .valueItem:hover {
-    /* background-blend-mode: normal; */
     transform: scale(1.05);
     z-index: 2;
     cursor: pointer;
-    /* opacity: 1.0; */
 }
 
 .valuepics {
@@ -322,7 +309,6 @@ h1 {
     font-size: 25px;
     position: relative;
     top: 20px;
-    /* background-color:#77C9D4; */
     background-color: white;
     color: #101010;
     padding: 20px;
@@ -333,8 +319,6 @@ h1 {
 #aboutArea1 h1 {
     text-decoration: none;
     border-bottom: 10px solid black;
-    /* text-decoration-color: #015249; */
-    /* text-decoration-color: #57bc90; */
     border-bottom-color: #FED823;
     
 }
@@ -402,27 +386,6 @@ margin: auto;
     margin-right: 15%;
 }
 
-/* #peopleEarth {
-    position: absolute;
-}
-
-#peopleEarth {
-    background-image:url('src/images/peopleearth.png');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    width: 300px;
-    height: 300px;
-    text-align: center;
-    margin: auto;
-    top: 25px;
-} */
-
-
-
 .partnersList {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -481,9 +444,7 @@ textarea {
 #contactBtn:hover {
     background-color: #57bc90;
     cursor: pointer;
-  
 }
-
 
 footer {
     width: 100%;
@@ -511,9 +472,8 @@ footer {
     margin-top: 50px;
 }
 
-/* Style the button that is used to open and close the collapsible content */
+
 .collapsible {
-    /* background-color: #015249; */
     background-color: #77C9D4;
     color: white;
     cursor: pointer;
@@ -525,12 +485,12 @@ footer {
     font-size: 15px;
   }
   
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+ 
   .active, .collapsible:hover {
     background-color: #57bc90;
   }
   
-  /* Style the collapsible content. Note: hidden by default */
+ 
   .content {
     padding: 0 18px;
     display: none;
@@ -545,7 +505,7 @@ footer {
   }
 
   .collapsible:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    content: '\02795';
     font-size: 13px;
     color: white;
     float: right;
@@ -553,5 +513,5 @@ footer {
 }
 
 .active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
+    content: "\2796"; 
 }
