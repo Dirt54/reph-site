@@ -20,7 +20,7 @@ export default class Navbar extends Component {
   render() {
     return (
       <nav role='navigation' className="topnav" id="myTopnav">
-        <div id="rephLogo">Rephidim</div>
+        <a id="rephLogo" href="/">Rephidim</a>
         <ul id="adaptItems">
           <li>
             <a href="/">Home</a>

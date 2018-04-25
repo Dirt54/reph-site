@@ -90,7 +90,7 @@ nav select {
 
 
 
-@media (max-width: 750px) {
+@media (max-width: 800px) {
     .topnav a     { 
         display: none; 
     }
@@ -112,12 +112,20 @@ nav select {
         flex-direction: column;
         text-align: left;
         background-color: white;
+        position: static;
+        float: right;
     }
     .topnav.responsive a {
       float: none;
       display: flex;
       flex-direction: column;
       text-align: left;
+    }
+    #rephLogo {
+        display: inline;
+        font-size: 1.5em;
+        padding: 20px;
+        
     }
   }
 
@@ -375,6 +383,8 @@ h1 {
     .aboutPics {
 text-align: center;
 margin: auto;
+height: 300px !important;
+width: 300px !important;
     }
 }
 
@@ -464,8 +474,9 @@ footer {
 #partnersHeading {
     position: relative;
     margin-bottom: 40px;
-    left: 32%;
+    /* left: 32%; */
     margin-top: 65px;
+    text-align: center;
 }
 
 #topBox {
@@ -483,6 +494,8 @@ footer {
     text-align: left;
     outline: none;
     font-size: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all .2s ease-in-out;
   }
   
  
@@ -492,10 +505,13 @@ footer {
   
  
   .content {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 0 18px;
     display: none;
     overflow: hidden;
-    background-color: #F0F0F0;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all .2s ease-in-out;
   }
 
   .content p {
