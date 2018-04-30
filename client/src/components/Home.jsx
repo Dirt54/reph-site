@@ -31,43 +31,43 @@ export default class Home extends Component {
 
           <div id="valueItems">
             <div className="valueItem">
-            Trust
+              Trust
             <div className="valuepics" id="trust"></div>
             </div>
             <div className="valueItem">
-            Humility
+              Humility
             <div className="valuepics" id="humility"></div>
             </div>
             <div className="valueItem">
-            Relationship/Partnership
+              Relationship/Partnership
             <div className="valuepics" id="relationship"></div>
             </div>
             <div className="valueItem">
-            Empowerment
+              Empowerment
             <div className="valuepics" id="empowerment"></div>
             </div>
             <div className="valueItem">
-            Sustainability
+              Sustainability
             <div className="valuepics" id="sustainability"></div>
             </div>
             <div className="valueItem">
-            Respect/Integrity
+              Respect/Integrity
             <div className="valuepics" id="respect"></div>
             </div>
             <div className="valueItem">
-            Compassion
+              Compassion
             <div className="valuepics" id="compassion"></div>
             </div>
             <div className="valueItem">
-            Service
+              Service
             <div className="valuepics" id="service"></div>
             </div>
             <div className="valueItem">
-            Inclusivity/Equality
+              Inclusivity/Equality
             <div className="valuepics" id="equality"></div>
             </div>
             <div className="valueItem">
-            Community
+              Community
               <div className="valuepics" id="community"></div>
             </div>
           </div>
