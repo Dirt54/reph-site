@@ -4,7 +4,7 @@ var mailgun = require('mailgun-js')({ apiKey: process.env.MAILGUN_API_KEY, domai
 
 exports.sendEmail = function (fromName, fromAddress, fromSubject, fromContent) {
     var data = {
-        to: 'lukerobinsona@gmail.com',     
+        to: 'cecilialhill2@gmail.com',     
         from: fromAddress,
         subject: fromSubject,
         html: "(Client's name is " + fromName + ".)" + "<br>" + "<br>" + fromContent
